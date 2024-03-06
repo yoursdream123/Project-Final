@@ -1,0 +1,294 @@
+.field{
+    margin-top: 10px;
+    display: flex;
+}
+.field2{
+    margin-top: 10px;
+    display: flex;
+}
+.area{
+    margin-top: 10px;
+}
+.forinline{
+    display: inline;
+}
+.forline{
+    display: inline;
+    margin-left: 20px;
+}
+.box{
+    height: 35px;
+    padding: 8px;
+    font-size: 18px;
+}
+.bux{
+    padding: 8px;
+    font-size: 18px;
+}
+.call{
+    background-color: rgb(235, 68, 68);
+    padding: 15px;
+    width: 110%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.mail{
+    background-color: rgb(73, 73, 216);
+    padding: 15px;
+    width: 110%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.address{
+    background-color: rgb(241, 55, 55);
+    padding: 15px;
+    width: 110%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.bton{
+    padding: 15px;
+    width: 170px;
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    font-weight: bold;
+}
+.morgin{
+    margin-left: 70px;
+}
+form textarea{
+    width: 95%;
+    outline: none;
+    padding: 15px;
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.call{
+    background-color: rgb(235, 68, 68);
+    padding: 15px;
+    width: 110%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.mail{
+    background-color: rgb(73, 73, 216);
+    padding: 15px;
+    width: 110%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.address{
+    background-color: rgb(241, 55, 55);
+    padding: 15px;
+    width: 110%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.baari{
+    display: flex;
+}
+.backround{
+position: relative;
+}
+.backround img{
+max-width: 100%;
+height: 300px;
+}
+.backround-text{
+position: absolute;
+top: 0;
+color: #fff;
+margin-left: 40px;
+}
+.backround-text a{
+font-size: 20px;
+text-decoration: none;
+}
+.hee{
+font-weight: 800;
+font-size: 65px;
+color: #fff;
+margin-left: 40px;
+margin-top: 65px;
+font-size: 50px;
+}
+.bon{
+display: flex;
+}
+.iski{
+margin-left: 10px;
+margin-top: -4px;
+font-size: 25px;
+font-weight: 900;
+}
+.culor{
+color: rgb(238, 54, 54);
+margin-left: 6px;
+}
+.colur{
+color: #fff;
+margin-left: 40px;
+}
+/* --------------------logo image------------------------ */
+.imagee{
+width: 250px;
+height: 60px;
+margin-left: 55px;
+}
+/* ------------------------log ends--------------------------- */
+
+/* -----------------------home, about,contact nav section------------ */
+.navbar-nav{
+margin-left: 520px;
+}
+.nav-link.active{
+margin-left: 40px;
+font-size: 20px;
+}
+/* -----------------------home, about,contact nav section ends------------ */
+
+/* ----------------------footer----------------------- */
+.footer{
+    background: rgb(1, 1, 51);
+    margin-top: 70px;
+    height: 452px;
+}
+.forflex{
+    display: flex;
+    margin-left: 110px;
+    
+}
+.copyright{
+    color: #fff;
+    margin-top: 100px;
+}
+.copyright p{
+    text-align: center;
+    margin-top: 40px;
+}
+.bex{
+    height: 250px;
+    width: 360px;
+    color: #fff;
+    padding: 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+.bex p{
+    font-size: 15px;
+}
+.bex a{
+    text-decoration: none;
+    color: #fff;
+}
+.bex h2{
+    font-size: 20px;
+}
+.bex h3{
+    font-size: 15px;
+}         
+@media only screen and (max-width: 600px){
+    .navbar-nav{
+        margin-left: 5px;
+    }
+    form textarea{
+        width: 92%;
+    }
+    .morgin{
+        margin-left: 22px;
+    }
+    .field{
+        display: inline;
+    }
+    .field2{
+        display: inline;
+    }
+    .box{
+        width: 320px;
+        height: 43px;
+        margin-bottom: 5px;
+    }
+    .area{
+        width: 320px;
+    }
+    .bton{
+        padding: 8px;
+        width: 130px;
+        font-size: 15px;
+        background-color: blue;
+        color: white;
+        border-color: blue;
+        font-weight: bold;
+    }
+    .baari{
+        display: inline;
+    }
+    .call{
+        margin-left: 5px;
+        width: 320px;
+    }
+    .mail{
+        margin-left: 5px;
+        width: 320px;
+    }
+    .address{
+        margin-left: 5px;
+        width: 320px;
+    }
+    .backround-text{
+        margin-left: -18px;
+    }
+    .imagee{
+        margin-left: 5px;
+    }
+    .iski{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    img{
+        width: 118%;
+    }
+    .logside{
+        margin-left: 18px;
+    }
+/* -------footer-------------- */
+    .footer{
+    background: rgb(1, 1, 51);
+    margin-top: 20%;
+    height: 850px;
+    }
+    .forflex{
+    display: inline;
+    margin-left: 110px;
+    
+    }
+    .copyright{
+    color: #fff;
+    margin-top: 100px;
+    }
+    .copyright p{
+    text-align: center;
+    margin-top: 40px;
+    }
+    .bex{
+    height: 250px;
+    width: 430px;
+    color: #fff;
+    padding: 20px;
+    text-align: justify;
+    font-size: 15px;
+    /* margin-top: -70px; */
+    }
+    .its{
+        margin-top: -75px;
+    }
+    .its2{
+        margin-top: -75px;
+    }                         
+}
+.error {
+    color: red;
+}

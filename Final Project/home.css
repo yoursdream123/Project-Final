@@ -1,0 +1,393 @@
+/* -------------------------Navbar--------------------- */
+/* -----logo image--------- */
+.imagee{
+    width: 250px;
+    height: 60px;
+    margin-left: 55px;
+    margin-top: 5px;
+}
+/* -----log ends---------- */
+
+/* ---home, about,contact nav section-------- */
+.navbar-nav{
+    margin-left: 520px;
+}
+.nav-link.active{
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.container-fluid{
+    background: rgb(1, 1, 117);
+} 
+/* -----home, about,contact nav section ends----- */
+@media only screen and (max-width: 600px){
+    .imagee{
+        width: 230px;
+        height: 60px;
+        margin-left: 30px;
+        margin-top: 7px;
+    }
+    .navbar-nav{
+        margin-left: 5px;
+    }
+    .nav-link.active{
+        font-size: 15px;
+    }
+    .navbar-toggler-icon{
+        background-color: #fff;
+        height: 20px;
+    }
+    .navbar-toggler{
+        background-color: #fff;
+        height: 40px;
+        width: 60px;
+    } 
+}
+
+/* ------------------------Navbar Ends------------------ */
+
+/* ---------------background image and text on it-------- */
+.backround{
+    position: relative;
+    margin-top: -10px;
+}
+.backround img{
+    max-width: 100%;
+    height: 530px;
+}
+.backround-text{
+    position: absolute;
+    top: 0;
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+/* ---------heading---------- */
+.hee{
+    font-size: 65px;
+}
+.para{
+    font-size: 22px;
+}
+/* --------get started-------- */
+.btn{
+    width: 150px;
+    border-color: 2px white;
+    height: 50px;
+    color: #fff;
+    background-color: rgb(1, 1, 117);
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.btn a{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: blue;
+    color: #fff;
+}
+@media only screen and (max-width: 600px){
+    .backround-text{
+        margin-top: 90px;
+    }
+    .hee{
+        font-size: 55px;
+    }
+    .para{
+        font-size: 16px;
+    } 
+    .backround img{
+        max-width: 100%;
+        height: 505px;
+    }
+    .btn{
+        width: 130px;
+        height: 45px;
+        color: #fff;
+        background-color: blue;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+/* ------------background image and text on it ends------------ */
+
+/* ---------------------Services Starts here---------------- */
+#servic{
+    padding: 30px 0;
+}
+.contain{
+    padding: 10px 5%;
+}
+.sub-tital{
+    font-size: 60px;
+    font-weight: 600;
+    color: black;
+}
+.servic-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    height: 400px;
+}
+.servic-list2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 150px;
+    height: 400px;
+}
+.buxx{
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    height: 500px;
+    width: 350px;
+    color: black;
+    border: 1px solid lightgrey;
+    border-style: dashed;
+    text-align: justify;
+    transition: background 0.5s, transform 0.5s;            
+}
+.buxx:hover{
+    background-color: white;
+    transform: translateY(-10px);            
+}
+.bux{
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    height: 500px;
+    width: 350px;
+    color: black;
+    border: 1px solid lightgrey;
+    border-style: dashed;
+    text-align: justify;
+    transition: background 0.5s, transform 0.5s;
+}
+.bux:hover{
+    background-color: white;
+    transform: translateY(-10px);
+}
+@media only screen and (max-width: 600px){
+    .servic-list2{
+        margin-top: 1220px;
+    }
+    #servic{
+        margin-left: 30px;
+    }
+    .bux{
+        margin-left: -32px;
+        width: 110%;
+    }
+    .buxx{
+        margin-left: -32px;
+        width: 110%;
+    }
+}
+/* ---------------Services Starts here ends------------- */
+
+
+/* ---------------icon services starts here------------ */
+
+#contear{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    background-color: rgb(4, 4, 80);
+    color: #fff;
+    margin-top: 130px;
+}
+#icon{
+    height: 60px;
+    margin-top: 10px;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 52px;
+    background-color: rgb(130, 130, 231);
+    text-align: center;
+    margin-left: 150px;
+}
+.circlee{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 52px;
+    background-color: rgb(130, 130, 231);
+    text-align: center;
+    margin-left: 17px;
+}
+.orders{
+    text-align: center;
+}
+.orders h2{
+    margin-top: 5px;
+    font-size: 25px;
+    margin-right: -18px;
+}
+.orders h3{
+    margin-top: -8px;
+    font-size: 22px;
+    margin-right: -15px;
+}
+.customer{
+    text-align: center;
+}
+.customer h2{
+    margin-top: 5px;
+    margin-left: 153px;
+    font-size: 25px;
+}
+.customer h3{
+    margin-top: -8px;
+    margin-left: 150px;
+    font-size: 22px;
+}
+.servicesess{
+    text-align: center;
+}
+.servicesess h2{
+    margin-top: 5px;
+    margin-left: 153px;
+    font-size: 25px;
+}
+.servicesess h3{
+    margin-top: -8px;
+    margin-left: 150px;
+    font-size: 22px;
+}
+.employee{
+    text-align: center;
+}
+.employee h2{
+    margin-top: 5px;
+    margin-left: 130px;
+    font-size: 25px;
+}
+.employee h3{
+    margin-top: -8px;
+    margin-left: 130px;
+    font-size: 22px;
+}
+.responsive{
+    display: flex;
+}
+.responsive2{
+    display: flex;
+}
+@media only screen and (max-width: 600px){
+    #contear{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 410px;
+    width: 100%;
+    background-color: rgb(4, 4, 80);
+    color: #fff;
+    margin-top: 340%;
+}
+.responsive{
+    margin-left: -3px;
+    margin-top: 10px;
+}
+.responsive2{
+    margin-left: -137px;
+    margin-top: 10px;
+}
+.customer{
+    margin-left: -20px;
+}
+.employee{
+    margin-left: -20px;
+}
+}
+/* ---------------icon services starts here------------ */
+
+/* --------------------footer---------------------- ---    */
+.footer{
+    background: rgb(1, 1, 51);
+    margin-top: 70px;
+    height: 452px;
+}
+.forflex{
+    display: flex;
+    margin-left: 110px;
+    
+}
+.copyright{
+    color: #fff;
+    margin-top: 100px;
+}
+.copyright p{
+    text-align: center;
+    margin-top: 40px;
+}
+.bex{
+    height: 250px;
+    width: 360px;
+    color: #fff;
+    padding: 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+.bex p{
+    font-size: 15px;
+}
+.bex a{
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.bex h2{
+    font-size: 20px;
+}
+.bex h3{
+    font-size: 15px;
+}
+@media only screen and (max-width: 600px){
+     /* -------footer-------------- */
+     .footer{
+        background: rgb(1, 1, 51);
+        margin-top: 70%;
+        height: 850px;
+        }
+        .forflex{
+        display: inline;
+        margin-left: 110px;
+        
+        }
+        .copyright{
+        color: #fff;
+        margin-top: 100px;
+        }
+        .copyright p{
+        text-align: center;
+        margin-top: 40px;
+        }
+        .bex{
+        height: 250px;
+        width: 430px;
+        color: #fff;
+        padding: 20px;
+        text-align: justify;
+        font-size: 15px;
+        }
+        .its{
+            margin-top: -75px;
+        }
+        .its2{
+            margin-top: -75px;
+        }
+        
+}
+
+/* ----------------footer ends------------------- */
